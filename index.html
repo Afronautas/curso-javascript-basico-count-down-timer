@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afronautas - Count Down Timer</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Afronautas Count Down Timer</h1>
+    <div class="afronauta">
+        <div>
+          <div>
+            <div><p>Time<p></div>
+            <div class="row counter">
+              <div class="col-md-4">
+                <button class="btn btn-default" id="time-dec">-</button>        
+              </div>
+              <div class="col-md-2">
+                <div id="session"></div>
+              </div>
+              <div class="col-md-4">
+                <button class="btn btn-default" id="time-inc">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        <div id="clock">
+          <div class="timer"><div class="middle"></div></div>
+        </div>
+        <div id="statRow">
+          <div id="stats">00:00</div>
+        </div>
+        <div class="container">
+          <div id="btns">
+            <button class="btn" id="start">start</button>
+            <button class="btn" id="stop">stop</button>
+            <button class="btn" id="clear">clear</button>
+          </div>
+        </div>
+           
+      </div>      
+</body>
+</html>
+<script src="./js/timer.js"></script>
